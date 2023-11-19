@@ -1,0 +1,30 @@
+.cartPageMain{
+    padding-top: 55px;
+    padding-bottom:55px;
+    padding-left: 11rem;
+}
+
+.cartItemList{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1rem;
+
+}
+
+.cartItem img{
+    width: 120px;
+}
+
+.cartItem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    grid-gap: 1rem;
+}
+
+.cartItem h3{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
